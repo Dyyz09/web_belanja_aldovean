@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumpulan Pembelanjaan - Aldovean Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Aldovean Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="beranda.html"><i class="fa-solid fa-home"></i></a></li>
+                    <li><a href="produk.html"><i class="fa-solid fa-box"></i></a></li>
+                    <li><a href="kontak.html"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a href="tentang.html"><i class="fa-solid fa-info-circle"></i></a></li>
+                    <li><a href="pengumpulan.html"><i class="fa-solid fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>  
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Pengumpulan Pembelanjaan</h2>
+            <p>Selamat datang di halaman pengumpulan pembelanjaan Aldovean Store. Di sini Anda dapat melihat status pengumpulan Anda dan informasi terkait.</p>
+            
+            <section class="collection-info">
+                <h3>Informasi Pengumpulan</h3>
+                <p>Kumpulkan poin setiap kali Anda berbelanja di toko kami! Poin ini bisa ditukar dengan diskon atau hadiah menarik. Berikut adalah detail cara pengumpulan poin:</p>
+                <ul>
+                    <li><strong>Setiap Rp100.000</strong> yang Anda belanjakan = <strong>10 Poin</strong></li>
+                    <li><strong>Poin Anda dapat ditukar</strong> dengan diskon atau produk gratis setelah mencapai jumlah tertentu</li>
+                    <li><strong>Poin berlaku</strong> untuk semua produk di toko kami kecuali yang sudah diskon</li>
+                </ul>
+            </section>
+
+            <section class="collection-status">
+                <h3>Status Pengumpulan Anda</h3>
+                <p>Masukkan alamat email Anda untuk melihat status pengumpulan dan poin yang Anda miliki:</p>
+                <form id="collection-form">
+                    <label for="email">Alamat Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Lihat Status</button>
+                </form>
+                <div id="status-result">
+                    <!-- Hasil dari status akan ditampilkan di sini setelah form dikirim -->
+                </div>
+            </section>
+
+            <section class="reward-options">
+                <h3>Opsi Hadiah</h3>
+                <p>Berikut adalah beberapa hadiah yang bisa Anda dapatkan dengan menukarkan poin Anda:</p>
+                <div class="reward-item">
+                    <img src="img/diskon.jpg" alt="Diskon">
+                    <h4>Diskon 20%</h4>
+                    <p>Tukar 100 poin untuk mendapatkan diskon 20% pada pembelian berikutnya.</p>
+                </div>
+                <div class="reward-item">
+                    <img src="img/produk-gratis.jpg" alt="Produk Gratis">
+                    <h4>Produk Gratis</h4>
+                    <p>Tukar 300 poin untuk mendapatkan produk gratis dari kategori pilihan.</p>
+                </div>
+                <div class="reward-item">
+                    <img src="img/merchandise.jpg" alt="Merchandise">
+                    <h4>Merchandise Eksklusif</h4>
+                    <p>Tukar 500 poin untuk mendapatkan merchandise eksklusif Aldovean Store.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Toko Online. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
